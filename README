@@ -2,5 +2,9 @@ rtl-sdr
 turns your Realtek RTL2832 based DVB dongle into a SDR receiver
 ======================================================================
 
+This is a modified version of the library found at https://github.com/steve-m/librtlsdr
+that works with Android OTG devices by using the modified rtlsdr_open method.
+You just have to supply an USB file descriptor retrieved from the USBDeviceConnection.
+
 For more information see:
 https://osmocom.org/projects/rtl-sdr/wiki
